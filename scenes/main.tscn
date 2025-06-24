@@ -1,0 +1,269 @@
+[gd_scene load_steps=3 format=3 uid="uid://edhxxeqeg8el"]
+
+[ext_resource type="Script" path="res://scripts/Main.cs" id="1_a52gb"]
+[ext_resource type="PackedScene" uid="uid://dk1v4v6qxep4p" path="res://scenes/Camera.tscn" id="2_77k3b"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_a52gb")
+
+[node name="Camera" parent="." instance=ExtResource("2_77k3b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.32016, 137.509)
+Speed = 100.0
+
+[node name="shapes" type="Node3D" parent="."]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 39.0
+offset_top = 177.0
+offset_right = 79.0
+offset_bottom = 217.0
+
+[node name="PanelContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_right = 232.0
+offset_bottom = 368.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="Control/PanelContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3"]
+layout_mode = 2
+text = "figure 1"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/PanelContainer/VBoxContainer3"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "a1"
+
+[node name="HSlider" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "b1
+"
+
+[node name="HSlider2" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "m
+"
+
+[node name="HSlider3" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "n1"
+
+[node name="HSlider4" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "n2"
+
+[node name="HSlider4" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer6"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "n3"
+
+[node name="HSlider4" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer6"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="Label2" type="Label" parent="Control/PanelContainer/VBoxContainer3"]
+layout_mode = 2
+text = "figure 2
+"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Control/PanelContainer/VBoxContainer3"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "a1"
+
+[node name="HSlider" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "b1
+"
+
+[node name="HSlider2" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "m
+"
+
+[node name="HSlider3" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "n1"
+
+[node name="HSlider4" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "n2
+"
+
+[node name="HSlider4" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer6"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "n3
+"
+
+[node name="HSlider4" type="HSlider" parent="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer6"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+min_value = -10.0
+max_value = 10.0
+step = 0.25
+
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer/HSlider" to="." method="SetA1"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer2/HSlider2" to="." method="SetB1"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer3/HSlider3" to="." method="SetP1X"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer4/HSlider4" to="." method="SetP1Y"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer5/HSlider4" to="." method="SetP1Z"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer/HBoxContainer6/HSlider4" to="." method="SetP1W"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer/HSlider" to="." method="SetA2"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer2/HSlider2" to="." method="SetB2"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer3/HSlider3" to="." method="SetP2X"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer4/HSlider4" to="." method="SetP2Y"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer5/HSlider4" to="." method="SetP2Z"]
+[connection signal="value_changed" from="Control/PanelContainer/VBoxContainer3/VBoxContainer2/HBoxContainer6/HSlider4" to="." method="SetP2W"]
